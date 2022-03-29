@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: hugomig/backend:1.2.6
+          image: hugomig/backend:1.2.7
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
