@@ -1,0 +1,29 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "$id": "user.filtred.json",
+    "type": "object",
+    "required": [
+        "firstname",
+        "lastname",
+        "username",
+        "relationshipStatus"
+    ],
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "firstname": {
+            "type": "string"
+        },
+        "lastname": {
+            "type": "string"
+        },
+        "username": {
+            "type": "string"
+        },
+        "relationshipStatus": {
+            "type": "string",
+            "enum": ["single", "in a relationship", "maried", "not your business"]
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "$id": "item.filtered.json",
+    "type": "object",
+    "required": [
+        "name",
+        "invitation"
+    ],
+    "properties": {
+        "id":{
+            "type": "string"
+        },
+        "type": {
+            "type": "string",
+            "enum": ["Non-alcoholic drink", "Alcoholic drink", "Food", "Game", "Accessory", "Other"]
+        },
+        "name": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "quantity": {
+            "type": "number"
+        },
+        "invitation": {
+            "type": "string"
+        }
+    }
+}
