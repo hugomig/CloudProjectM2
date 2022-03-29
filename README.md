@@ -13,4 +13,4 @@ Step to deploy this project on kubernetes
 
 - Database : Mysql
 - Backend : Nodejs Typescript Fastify
-- Frontend : React Nginx with proxy to redirect /api to Backend
+- Frontend : React Nginx with proxy to redirect /api to Backend (can see code in Frontend/nginx.conf)
