@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: hugomig/testfront:1.2.7
+          image: antoineban/frontend:1.0.0
           imagePullPolicy: Always
           ports:
             - containerPort: 80
